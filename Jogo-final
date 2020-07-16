@@ -1,10 +1,12 @@
-puts "bem vindo a o jogo da adivinhação"
-	puts " qual e o seu nome ?"
-	nome = gets
-	puts "\n\n"
-	puts "Bem vindo a o jogo " + nome 
-
+def inicio_do_jogo
+	puts "bem vindo a o jogo da adivinhação!"
+	puts "qual e o seu nome ? "
+	nome = gets 
+	puts 'esta com sorte hoje ' + nome + " ? "
+	puts "que tal acertar o numero de hoje "	
 end
+
+
 
 incio_do_jogo
 
@@ -41,3 +43,4 @@ for tentativa in 1 ..limite_de_tentativas
 	end
 end
 #testando
+#nova correção
