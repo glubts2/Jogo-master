@@ -2,6 +2,7 @@ def inicio_do_jogo
 	puts "bem vindo a o jogo da adivinhação!"
 	puts "qual e o seu nome ? "
 	nome = gets 
+	puts "\n\n\"
 	puts 'esta com sorte hoje ' + nome + " ? "
 	puts "que tal acertar o numero de hoje "	
 end
